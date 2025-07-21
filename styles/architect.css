@@ -204,6 +204,23 @@ main>section{
 .sponsors-companies img{
     filter: grayscale(100%);
 }
+
+
+/* footer end */
+.footers{
+    background-color: #FFF4E7;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+
+   
+}
+.footers p{
+    padding: 39px 410px;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
 /* responsive media query */
 @media screen and (max-width:576px) {
     .navbar,
@@ -233,6 +250,12 @@ main>section{
         margin-top: 20px;
         margin-left: 20px;
     }
+    .footers{
+        justify-content: center;
+    }
+    .footers p{
+        padding: 20px 20px;
+    }
 
     
 }
@@ -255,3 +278,11 @@ main>section{
         margin-left: 20px;
     
 }
+.footers{
+        justify-content: center;
+    }
+    .footers p{
+        padding: 20px 30px;
+    }
+}
+
